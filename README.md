@@ -7,3 +7,5 @@ Data is first generated from first principles using a Monod kinetic model. Kinet
 The Kinetic model is as follows (excluding the Bleed, Haversting and Suppl terms since we are simulating a fed batch model):
 
 ![1740845044268](image/README/1740845044268.png)
+
+Second step is to use the following model to generate data to train a Recurrent Neural Network to predict concentration profiles based on various reactor inlet conditions (ie. concentration, temperature, flowrate).
